@@ -9,8 +9,7 @@ body {
 #inicio {
     display: flex;
     justify-content: space-between;
-    width: 80%;
-    margin-left:10%;
+    width: 100%;
 }
 
 
@@ -39,11 +38,27 @@ body {
 }
 .num1 img {
     width: 100%;
+    margin-top: 5%;
+}
+.unavatar img {
+    width: 20%;
+    height: 5%;
+}
+.unavatar p {
+    margin-top: 8%;
+    margin-left: 5%;
+    font-size: 15px;
+    color:#0e0f0f ;
 }
 
+.unavatar {
+    display: flex;
+    margin-left: 3%;
+   margin-top: 5%;
+}
  .avatar img {
      width: 20%;
-     margin-left: 10%;
+    
 
 }
 .avatar {
@@ -74,13 +89,19 @@ margin-top: 5%;
   }
   #inicio {
     margin: 0%;
+    width: 100%;
   }
+  
+
+  
     #menu {
     display: none;
    } 
 
    #lista{
       display: flex;
+      margin: 0%;
+      width: 50%;
 
    }
 
@@ -98,11 +119,11 @@ ul {
 
 button {
     font-size: 20px;
-    padding: 8%;
+    padding: 5%;
     background-color:#d76f07;
     border: #ee7c0d;
     border-radius: 5%;
-    margin-left: 27%;
+    margin-left: 9%;
 }
 #todo {
     width: 100%;
@@ -133,7 +154,23 @@ button {
     font-size: 25px;
     margin: 0%;
 }
+.unavatar img {
+    width: 15%;
+    height: 5%;
+    margin:0%
+}
+.unavatar p {
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 20px;
+    color:#0e0f0f ;
+}
 
+.unavatar {
+    display: flex;
+    margin-left: 3%;
+   margin-top: 5%;
+}
 .avatar img {
     width: 15%;
     margin:0%
@@ -151,12 +188,27 @@ button {
     color:#0e0f0f ;
 }
 
-footer {
+#final {
     margin: 0%;
    margin-top: 8%;
-   font-size: 20px;
-   display: flex;
-   
+   flex-flow: wrap;
+   width: 100%;
+}
+.img {
+    width: 40%;
+
+}
+.pa {
+    width: 60%;
+    margin: 0%;
+}
+
+#final img{
+    width: 60%;
+}
+#final p {
+    font-size: 20px;
+    margin-left: 10%;
 }
 }
 
@@ -174,14 +226,18 @@ footer {
    } 
     
    body {
-    margin: 5%;
+    margin: 10%;
    }
     
 
    #inicio {
-    width: 90%;
+    width: 100%;
    }
-   
+   #lista{
+    display: flex;
+    margin: 0%;
+    width: 35%;
+   }
    .boletin  {
      display: flex;
      width: 100%;
@@ -198,13 +254,54 @@ footer {
    }
    
    #uno p {
-   color: #525756;
+   color: #0b0c0c;
+   margin:0% ;
+   margin-top: 2%;
+   margin-left: 3%;
 }
 
 .num1 img {
-    width:80%;
+    width:90%;
 }
 #todo{
     display: flex;
+    margin-top: 5%;
+}
+
+.num1  {
+     width:100% ;
+    margin: 3%;
+}
+.num1 p {
+     font-size: 25px;
+     width: 96%;
+}
+.num1 h1 {
+    font-size: 30px;
+    width: 95%;
+}
+#final {
+    margin: 0%;
+   margin-top: 8%;
+   flex-flow: wrap;
+   width: 100%;
+}
+.img {
+    width: 40%;
+
+}
+.pa {
+    width: 60%;
+    margin: 0%;
+}
+
+#final img{
+    width: 20%;
+    margin-top: 7%;
+}
+#final p {
+    font-size: 18px;
+    margin-left: 40%;
+    color: #525756;
 }
 }
