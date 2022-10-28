@@ -34,11 +34,15 @@ body {
 
 .boletin p {
     width: 100%;
-    font-size: 25px;
+    font-size: 20px;
 }
 .num1 img {
     width: 100%;
     margin-top: 5%;
+}
+.num1 p {
+    font-size: 20px;
+    width: 100%;
 }
 .unavatar img {
     width: 20%;
@@ -101,7 +105,7 @@ margin-top: 5%;
    #lista{
       display: flex;
       margin: 0%;
-      width: 50%;
+      width: 70%;
 
    }
 
@@ -151,7 +155,7 @@ button {
 
 .num1 p {
     width: 100%;
-    font-size: 25px;
+    font-size: 30px;
     margin: 0%;
 }
 .unavatar img {
@@ -162,7 +166,7 @@ button {
 .unavatar p {
     margin-top: 5%;
     margin-left: 5%;
-    font-size: 20px;
+    font-size: 25px;
     color:#0e0f0f ;
 }
 
@@ -184,7 +188,7 @@ button {
 .avatar p {
     margin-top: 5%;
     margin-left: 5%;
-    font-size: 20px;
+    font-size: 25px;
     color:#0e0f0f ;
 }
 
@@ -204,11 +208,11 @@ button {
 }
 
 #final img{
-    width: 60%;
+    width: 70%;
 }
 #final p {
-    font-size: 20px;
-    margin-left: 10%;
+    font-size: 25px;
+    margin-left: 1%;
 }
 }
 
@@ -233,11 +237,22 @@ button {
    #inicio {
     width: 100%;
    }
+
    #lista{
     display: flex;
     margin: 0%;
-    width: 35%;
+    width: 25%;
    }
+   
+
+ ul li {
+  list-style: none;
+  margin-right: 5%;
+  font-size: 25px;
+  margin-top: 8%;
+  color: #525756;
+  font-family:Arial, Helvetica, sans-serif;
+}
    .boletin  {
      display: flex;
      width: 100%;
@@ -252,12 +267,16 @@ button {
     width: 10%;
     margin: 0%;
    }
+   #uno h1 {
+    font-size:40px;
+   }
    
    #uno p {
    color: #0b0c0c;
    margin:0% ;
    margin-top: 2%;
    margin-left: 3%;
+   font-size: 30px;
 }
 
 .num1 img {
@@ -273,7 +292,7 @@ button {
     margin: 3%;
 }
 .num1 p {
-     font-size: 25px;
+     font-size: 30px;
      width: 96%;
 }
 .num1 h1 {
@@ -296,11 +315,11 @@ button {
 }
 
 #final img{
-    width: 20%;
+    width: 30%;
     margin-top: 7%;
 }
 #final p {
-    font-size: 18px;
+    font-size: 40px;
     margin-left: 40%;
     color: #525756;
 }
